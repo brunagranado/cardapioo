@@ -1,0 +1,61 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-image:url(../imagens/v748-toon-103.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+.principal{
+    background-image: url(/imagens/logotipo-dona-cecilia.png);
+    background-size: 30%;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 20px;;
+}
+
+.principal nav ul{
+    margin: auto;
+    text-align: center;
+}
+
+.principal nav li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.principal nav a{
+    background-color: #995e10;
+    padding: 16px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.principal nav a:hover{
+    background-color: #d4892c;
+}
+
+.principal nav a:visited{
+    background-color: #69480a;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
+}
+
+.rodape{
+    color: white;
+    background-color:#995e10;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
