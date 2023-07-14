@@ -1,7 +1,7 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
-    background-image:url(/v748-toon-103.jpg);
+    background-image:url(v748-toon-103.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -9,8 +9,8 @@ body{
 }
 
 .principal{
-    background-image: url(/imagens/logotipo-dona-cecilia.png);
-    background-size: 30%;
+    background-image: url(logotipo-dona-cecilia.png);
+    background-size: 10%;
     background-position: left;
     background-repeat: no-repeat;
     padding: 20px;;
@@ -49,6 +49,32 @@ main{
     margin: auto;
     max-width: 860px;
 }
+
+.cardapio{
+    background-color: #ebe7e2;
+    padding: 5px;
+    margin-bottom: 15px;;
+}
+
+.cardapio h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    background-color: #d3923c;
+}
+
+.cardapio p{
+    margin: 5px;
+}
+
+/*.cardapio img{
+    border-radius: 20%;
+    border-style:outset;
+    border-color: #69480a;
+    position: sticky;
+    margin-left: 120px;
+}*/
 
 .rodape{
     color: white;
